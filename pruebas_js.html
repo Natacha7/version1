@@ -1,0 +1,54 @@
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mujer Real</title>
+        <link rel="icon" href="images/iconocute.ico" type="image/png"/>
+        <script src="/javascripts/application.js"></script>
+        <script src="/javascripts/myScript1.js"></script>
+        <script src="https://www.w3schools.com/js/myScript1.js"></script>
+        <link rel="stylesheet" type="text/css" href="estilos/menu.css">
+        <body style="background-color:#fdf9f9;"></body>
+        
+    </head>
+
+    <body>
+        <h1>Pruebas javaScript</h1>
+        <p id="mi_parrafo">Hola</p>
+        <script language="JavaScript">
+            let saludo='Hola Programadores';
+            console.log(saludo);
+            //alert(saludo);
+            let numero = 8;
+            let numero_decimal = 7.9;
+            let booleano = true;
+            let arreglo = [8,9,'palabra'];
+            console.log(numero);
+            console.log(numero_decimal);
+            console.log(booleano);
+            console.log(arreglo);
+            
+            let mi_objeto= {nombre: 'objeto uno', identificacion: 123, mi_arreglo: arreglo};
+            console.log(mi_objeto);
+            console.log('La identificación= '+ mi_objeto.identificacion);
+            let mi_objeto_2 = {id: 4568, mi_primer_objeto: mi_objeto};
+            console.log(mi_objeto_2);
+            console.log('El elemento dentro de los objetos = ' + mi_objeto_2.mi_primer_objeto.mi_arreglo[2]);
+
+            if (numero === 10){
+                //alert('El número es igual a 10');
+            } else {
+                //alert('El número es diferente');
+            }
+
+            for (i=0; i < arreglo.length; i++) {
+                console.log(arreglo[i]);
+            }
+
+            let el_texto = document.getElementById("mi_parrafo").textContent
+            console.log(el_texto);
+            document.getElementById("mi_parrafo").textContent = 'chao'
+            
+        </script>
+    </body>
+</html>
