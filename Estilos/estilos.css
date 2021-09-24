@@ -94,6 +94,15 @@
         font-size: 25px;
     }
 
+    #navBar {
+        font-size: 15px;
+    }
+
+    .tamano-video {
+        height: auto;
+        width: 350px
+    }
+
     .site-title{
         padding-top: 60px;
     }
